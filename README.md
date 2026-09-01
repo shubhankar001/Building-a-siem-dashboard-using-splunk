@@ -2,11 +2,11 @@
 
 ## 📌 Project Overview
 
-This project demonstrates the development of a Security Information and Event Management (SIEM) dashboard using Splunk Enterprise.\
-\
-A virtualized cybersecurity lab was created using Kali Linux, Ubuntu Linux, and Windows 11 Pro. Ubuntu was used as the log-generating server, Kali Linux was used for controlled security testing, and Windows 11 Pro hosted Splunk Enterprise.\
+This project demonstrates the development of a Security Information and Event Management (SIEM) dashboard using Splunk Enterprise.
 
-The Splunk Universal Forwarder collected security and system logs from Ubuntu and forwarded them to Splunk Enterprise for analysis and visualization.\
+A virtualized cybersecurity lab was created using Kali Linux, Ubuntu Linux, and Windows 11 Pro. Ubuntu was used as the log-generating server, Kali Linux was used for controlled security testing, and Windows 11 Pro hosted Splunk Enterprise.
+
+The Splunk Universal Forwarder collected security and system logs from Ubuntu and forwarded them to Splunk Enterprise for analysis and visualization.
 
 ---
 
@@ -58,7 +58,7 @@ SIEM Dashboard
 -Splunk Universal Forwarder\
 -Splunk Enterprise\
 -SPL\
--VMwares\
+-VMwares
 
 
 ##📡 Log Sources
@@ -83,7 +83,7 @@ Apache HTTP status codes\
 Apache requests\
 Apache errors\
 Firewall-blocked traffic\
-Security activity over time\
+Security activity over time
 
 Example: SSH Failed Login Detection
 ~~~
@@ -105,7 +105,7 @@ Top SSH Attacker IPs\
 Apache Web Requests Over Time\
 Apache Error Activity\
 Firewall Blocked Traffic\
-Total Security Events\
+Total Security Events
 
 ##🛡️ Security Monitoring Workflow
 ~~~
@@ -139,8 +139,7 @@ The project successfully demonstrated:
 -Firewall event logging\
 -Centralized log collection\
 -SPL-based security analysis\
--SIEM dashboard visualization\
-
+-SIEM dashboard visualization
 
 
 ##⚠️ Disclaimer
