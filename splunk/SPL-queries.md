@@ -81,9 +81,4 @@ Purpose
 Displays the total number of events available in the Ubuntu Splunk index.
 
 
-### Save it
 
-Commit the file with:
-
-```text
-Add Splunk SPL queries
