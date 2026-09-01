@@ -75,8 +75,10 @@ The Splunk Universal Forwarder monitors the following Ubuntu logs:
 
 SPL queries were developed to analyze:
 
-Failed SSH authentication
-Source/attacker IP addresses
+*Failed SSH authentication
+
+*Source/attacker IP addresses  
+
 Apache HTTP status codes
 Apache requests
 Apache errors
