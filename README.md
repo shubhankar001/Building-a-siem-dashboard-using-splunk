@@ -48,17 +48,17 @@ SIEM Dashboard
 
 
 🛠️ Technologies Used
-Kali Linux
-Ubuntu Linux
-Windows 11 Pro
-OpenSSH
-Apache2
-vsftpd
-iptables
-Splunk Universal Forwarder
-Splunk Enterprise
-SPL
-VMwares
+-Kali Linux\
+-Ubuntu Linux\
+-Windows 11 Pro\
+-OpenSSH\
+-Apache2
+-vsftpd
+-iptables
+-Splunk Universal Forwarder
+-Splunk Enterprise
+-SPL
+-VMwares
 
 
 📡 Log Sources
