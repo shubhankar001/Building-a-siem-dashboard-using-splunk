@@ -49,7 +49,8 @@ Windows 11 Pro hosted Splunk Enterprise and acted as the centralized SIEM.
 The Splunk Universal Forwarder on Ubuntu forwarded logs to Splunk Enterprise using TCP port 9997.
 
 Data Flow
-```Kali Linux
+```
+Kali Linux
      ↓
 Ubuntu Linux
      ↓
