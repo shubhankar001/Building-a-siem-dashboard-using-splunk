@@ -63,7 +63,6 @@ SPL Analysis
      ↓
 SIEM Dashboard
 
-
 ## Security Controls
 
 The Ubuntu system included:
