@@ -84,11 +84,13 @@ Firewall-blocked traffic
 Security activity over time
 
 Example: SSH Failed Login Detection
+~~~
 index=ubuntulinux sourcetype=linux_secure "Failed password"
 | rex "from\s+(?<src_ip>\d{1,3}(?:\.\d{1,3}){3})"
 | stats count by src_ip
 | where count >= 3
 | sort - count
+~~~
 
 📊 SIEM Dashboard
 
@@ -104,6 +106,7 @@ Firewall Blocked Traffic
 Total Security Events
 
 🛡️ Security Monitoring Workflow
+~~~
 Security Testing
        ↓
 Ubuntu Log Generation
@@ -119,7 +122,7 @@ SPL Queries
 Security Analysis
        ↓
 SIEM Dashboard
-
+~~~
 
 
 🧪 Testing & Results
@@ -140,7 +143,9 @@ SIEM dashboard visualization
 
 ⚠️ Disclaimer
 
+~~~
 This project was developed in an isolated virtual laboratory environment for educational and cybersecurity learning purposes.
 
 No unauthorized systems or networks were targeted.
+~~~
 
