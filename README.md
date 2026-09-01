@@ -68,7 +68,7 @@ Log Source                                             	Sourcetype
 /var/log/auth.log                                      	linux_secure
 /var/log/apache2/access.log	                            apache:access
 /var/log/apache2/error.log	                            apache:error
-/var/log/kern.log	                                      linux_kernel
+/var/log/kern.log	                                   linux_kernel
 All logs are forwarded to the ubuntulinux Splunk index.
 
 🔎 Security Analysis
@@ -144,9 +144,3 @@ This project was developed in an isolated virtual laboratory environment for edu
 
 No unauthorized systems or networks were targeted.
 
-
-### Important
-
-Don't upload the **actual `inputs.conf` or PowerShell script yet** if they contain passwords, credentials, private keys, or other secrets. We'll create safe `.example` versions for GitHub.
-
-**Create/save this README first.** Then tell me **done**, and we'll create the `splunk/SPL-queries.md` file.
