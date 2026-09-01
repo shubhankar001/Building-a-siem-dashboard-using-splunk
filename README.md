@@ -2,11 +2,11 @@
 
 ## 📌 Project Overview
 
-This project demonstrates the development of a Security Information and Event Management (SIEM) dashboard using Splunk Enterprise.
+This project demonstrates the development of a Security Information and Event Management (SIEM) dashboard using Splunk Enterprise.\
+\
+A virtualized cybersecurity lab was created using Kali Linux, Ubuntu Linux, and Windows 11 Pro. Ubuntu was used as the log-generating server, Kali Linux was used for controlled security testing, and Windows 11 Pro hosted Splunk Enterprise.\
 
-A virtualized cybersecurity lab was created using Kali Linux, Ubuntu Linux, and Windows 11 Pro. Ubuntu was used as the log-generating server, Kali Linux was used for controlled security testing, and Windows 11 Pro hosted Splunk Enterprise.
-
-The Splunk Universal Forwarder collected security and system logs from Ubuntu and forwarded them to Splunk Enterprise for analysis and visualization.
+The Splunk Universal Forwarder collected security and system logs from Ubuntu and forwarded them to Splunk Enterprise for analysis and visualization.\
 
 ---
 
@@ -52,13 +52,13 @@ SIEM Dashboard
 -Ubuntu Linux\
 -Windows 11 Pro\
 -OpenSSH\
--Apache2
--vsftpd
--iptables
--Splunk Universal Forwarder
--Splunk Enterprise
--SPL
--VMwares
+-Apache2\
+-vsftpd\
+-iptables\
+-Splunk Universal Forwarder\
+-Splunk Enterprise\
+-SPL\
+-VMwares\
 
 
 📡 Log Sources
@@ -79,11 +79,11 @@ SPL queries were developed to analyze:
 
 *Source/attacker IP addresses  
 
-Apache HTTP status codes
-Apache requests
-Apache errors
-Firewall-blocked traffic
-Security activity over time
+Apache HTTP status codes\
+Apache requests\
+Apache errors\
+Firewall-blocked traffic\
+Security activity over time\
 
 Example: SSH Failed Login Detection
 ~~~
@@ -98,14 +98,14 @@ index=ubuntulinux sourcetype=linux_secure "Failed password"
 
 The Splunk dashboard provides centralized monitoring of:
 
-SSH Failed Login Attempts
-Apache HTTP Status Codes
-SSH Authentication Activity Over Time
-Top SSH Attacker IPs
-Apache Web Requests Over Time
-Apache Error Activity
-Firewall Blocked Traffic
-Total Security Events
+SSH Failed Login Attempts\
+Apache HTTP Status Codes\
+SSH Authentication Activity Over Time\
+Top SSH Attacker IPs\
+Apache Web Requests Over Time\
+Apache Error Activity\
+Firewall Blocked Traffic\
+Total Security Events\
 
 🛡️ Security Monitoring Workflow
 ~~~
@@ -133,13 +133,13 @@ The environment was tested using controlled security activity.
 
 The project successfully demonstrated:
 
-*SSH authentication monitoring
-*Apache web activity monitoring
-*Firewall IP blocking
-*Firewall event logging
-*Centralized log collection
-*SPL-based security analysis
-*SIEM dashboard visualization
+-SSH authentication monitoring\
+-Apache web activity monitoring\
+-Firewall IP blocking\
+-Firewall event logging\
+-Centralized log collection\
+-SPL-based security analysis\
+-SIEM dashboard visualization\
 
 
 
