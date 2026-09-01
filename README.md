@@ -131,13 +131,13 @@ The environment was tested using controlled security activity.
 
 The project successfully demonstrated:
 
-SSH authentication monitoring
-Apache web activity monitoring
-Firewall IP blocking
-Firewall event logging
-Centralized log collection
-SPL-based security analysis
-SIEM dashboard visualization
+*SSH authentication monitoring
+*Apache web activity monitoring
+*Firewall IP blocking
+*Firewall event logging
+*Centralized log collection
+*SPL-based security analysis
+*SIEM dashboard visualization
 
 
 
