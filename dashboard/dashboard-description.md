@@ -58,7 +58,3 @@ Dashboard Visualizations
 The dashboard provides a centralized interface for monitoring and analyzing security activity within the lab environment.
 
 
-Commit message:
-
-```text
-Add SIEM dashboard documentation
