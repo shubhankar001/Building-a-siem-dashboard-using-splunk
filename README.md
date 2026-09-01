@@ -64,12 +64,12 @@ VMwares
 📡 Log Sources
 
 The Splunk Universal Forwarder monitors the following Ubuntu logs:
-Log Source                                             	Sourcetype
-/var/log/auth.log                                      	linux_secure
-/var/log/apache2/access.log	                            apache:access
-/var/log/apache2/error.log	                            apache:error
-/var/log/kern.log	                                   linux_kernel
-All logs are forwarded to the ubuntulinux Splunk index.
+| Log Source                    | Sourcetype      |
+| ----------------------------- | --------------- |
+| `/var/log/auth.log`           | `linux_secure`  |
+| `/var/log/apache2/access.log` | `apache:access` |
+| `/var/log/apache2/error.log`  | `apache:error`  |
+| `/var/log/kern.log`           | `linux_kernel`  |
 
 🔎 Security Analysis
 
