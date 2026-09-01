@@ -38,7 +38,7 @@ SIEM Dashboard
 
 ```
 
-##💻 Lab Environment
+## 💻 Lab Environment
 | System         | IP Address     | Role              |
 | -------------- | -------------- | ----------------- |
 | Kali Linux     | 192.168.52.128 | Security testing  |
@@ -47,7 +47,7 @@ SIEM Dashboard
 
 
 
-##🛠️ Technologies Used
+## 🛠️ Technologies Used
 -Kali Linux\
 -Ubuntu Linux\
 -Windows 11 Pro\
@@ -61,7 +61,7 @@ SIEM Dashboard
 -VMwares
 
 
-##📡 Log Sources
+## 📡 Log Sources
 
 The Splunk Universal Forwarder monitors the following Ubuntu logs:
 | Log Source                    | Sourcetype      |
@@ -71,7 +71,7 @@ The Splunk Universal Forwarder monitors the following Ubuntu logs:
 | `/var/log/apache2/error.log`  | `apache:error`  |
 | `/var/log/kern.log`           | `linux_kernel`  |
 
-##🔎 Security Analysis
+## 🔎 Security Analysis
 
 SPL queries were developed to analyze:
 
@@ -94,7 +94,7 @@ index=ubuntulinux sourcetype=linux_secure "Failed password"
 | sort - count
 ~~~
 
-##📊 SIEM Dashboard
+## 📊 SIEM Dashboard
 
 The Splunk dashboard provides centralized monitoring of:
 
@@ -107,7 +107,7 @@ Apache Error Activity\
 Firewall Blocked Traffic\
 Total Security Events
 
-##🛡️ Security Monitoring Workflow
+## 🛡️ Security Monitoring Workflow
 ~~~
 Security Testing
        ↓
@@ -127,7 +127,7 @@ SIEM Dashboard
 ~~~
 
 
-##🧪 Testing & Results
+## 🧪 Testing & Results
 
 The environment was tested using controlled security activity.
 
@@ -142,7 +142,7 @@ The project successfully demonstrated:
 -SIEM dashboard visualization
 
 
-##⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 ~~~
 This project was developed in an isolated virtual laboratory environment for educational and cybersecurity learning purposes.
