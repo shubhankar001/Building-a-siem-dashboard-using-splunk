@@ -37,6 +37,10 @@ SPL Analysis
 SIEM Dashboard
 
 ```
+### Architecture Diagram
+
+![SIEM Lab Architecture](lab-setup/architecture.png)
+
 
 ## 💻 Lab Environment
 | System         | IP Address     | Role              |
